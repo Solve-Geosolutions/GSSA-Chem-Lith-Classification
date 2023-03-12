@@ -1,0 +1,18 @@
+name: chem_lith_classifier
+channels:
+  - defaults
+dependencies:
+  - plotly
+  - numpy
+  - matplotlib
+  - python=3.9
+  - pandas
+  - seaborn
+  - xgboost
+  - scikit-learn
+  - ipykernel
+  - shap
+  - feature_engine
+  - python-kaleido
+  - imbalanced-learn
+prefix: C:\Users\davo_\anaconda3\envs\chem_lith_classifier
