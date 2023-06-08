@@ -3,14 +3,15 @@ channels:
   - defaults
 dependencies:
   - plotly
-  - numpy
+  - numpy < 1.24.0
   - matplotlib
-  - python=3.9
+  - python = 3.9
   - pandas
   - seaborn
   - xgboost
   - scikit-learn
   - ipykernel
+  - nbformat>=4.2.0
   - shap
   - feature_engine
   - python-kaleido
